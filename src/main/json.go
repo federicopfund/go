@@ -28,7 +28,7 @@ func encodeJson() {
 		Age:  32,
 	}
 
-	//Codifique la estructura a JSON usando la función json.Marshal
+	// Codifique la estructura a JSON usando la función json.Marshal
 	jsonData, err := json.Marshal(person)
 	if err != nil {
 		fmt.Println(err)
