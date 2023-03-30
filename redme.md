@@ -1,11 +1,28 @@
 
-### Manejo de JSON en Go
+### Creando tu primer servidor web en Go
 
 #
-Hola a todos y bienvenidos a mi repo, aqui hablaremos sobre JSON y cómo se maneja en Golang. Ahora, para aquellos de ustedes que no estén familiarizados, JSON, o Notación de objetos de JavaScript, es un formato de intercambio de datos liviano que se usa comúnmente para intercambiar datos entre servidores y aplicaciones web.
 
-Entonces, ¡vamos a sumergirnos! Comenzaremos echando un vistazo a los conceptos básicos de JSON y por qué es un formato tan popular para el intercambio de datos. Luego, pasaremos a algunos ejemplos prácticos de codificación donde le mostraré cómo codificar y decodificar datos JSON en Golang. También demostraré cómo manejar varios tipos de datos, como arreglos, objetos y estructuras de datos anidados, usando el paquete integrado "encoding/json".
+Creando tu primer servidor web en Go
+¡Hola a todos y bienvenidos al episodio de hoy en el que crearemos su primer servidor web en Go! Esta sesión está diseñada para nuevos desarrolladores en la industria tecnológica y aquellos que quieren aprender sobre el lenguaje.
 
-Al final de esta sesión, tendrá una sólida comprensión de cómo trabajar con JSON en Golang.
-#
-[link](https://www.youtube.com/live/E2fNCyFA9vA?feature=share)
+En esta sesión, utilizaremos la biblioteca estándar en Go y mostraremos el poder de GitHub Copilot, una poderosa herramienta que puede ayudarlo a escribir código de manera más rápida y eficiente.
+
+Al final de esta sesión, tendrá una sólida comprensión de cómo construir un servidor web básico en Go y estará equipado con las herramientas para continuar explorando este emocionante lenguaje. ¡Entonces, tome su café y únase a nosotros para una sesión divertida e informativa!
+
+Para ejecutar esto en Docker o Podman localmente
+
+[link](https://www.youtube.com/live/uhhxPZNKRWM?feature=share)
+
+``` sh
+
+// navigate to the root of the project file
+cd web-server
+
+// build the image
+docker build --tag docker.io/goshow:v1 .   
+
+// run the image
+docker run -dt -p 8080:8080/tcp docker.io/library/goshow:v1
+
+```
