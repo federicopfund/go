@@ -1,3 +1,3 @@
-module github.com/fede/calculator
+module github.com/src/calculator
 
 go 1.18
